@@ -1,0 +1,61 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	display: flex;
+}
+
+.management {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.coords {
+	margin: 5px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.zeroDotCoords {
+	display: flex;
+	margin: 5px;
+}
+
+.input {
+	width: 160px;
+	height: 15px;
+	margin: 5px;
+}
+
+span {
+	margin-top: 5px;
+}
+
+.zeroDot {
+	display: flex;
+	flex-direction: column;
+}
+
+.dots {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
+
+.show {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 10%;
+}
+
+.firstDot, .secondDot, .thirdDot {
+	display: flex;
+	flex-direction: column;
+}
+
+#canvas {
+	border: 1px solid black;
+}
